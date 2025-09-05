@@ -2,6 +2,11 @@
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
   "name": "ePay Docs",
+  "description": "",
+  "favicon": {
+    "light": "/public/assets/favicon.ico",
+    "dark": "/public/assets/favicon.ico",
+  },
   "logo": {
     "light": "/public/assets/logo-epay.png",
     "dark": "/public/assets/logo-epay.png"
