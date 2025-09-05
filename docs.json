@@ -6,6 +6,11 @@
     "light": "/public/assets/logo-epay.png",
     "dark": "/public/assets/logo-epay.png"
   },
+  "colors": {
+    "primary": "#1677ff",
+    "light": "#f5f7ff",
+    "dark": "#0b1221"
+  },
   "navigation": {
     "languages": [
       {
