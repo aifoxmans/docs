@@ -1,0 +1,90 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "ePay Stablecoin Platform",
+  "logo": "/assets/logo-epay.png",
+  "favicon": "/assets/logo-epay.png",
+  "colors": {
+    "primary": "#1677ff",
+    "light": "#f5f7ff",
+    "dark": "#0b1221"
+  },
+  "navigation": {
+    "groups": [
+      {
+        "group": "Overview",
+        "pages": [
+          "/",
+          "quickstart",
+          "i18n",
+          "merchant-scenarios"
+        ]
+      },
+      {
+        "group": "Guides",
+        "pages": [
+          "guides/accept-payments",
+          "guides/collect-disburse",
+          "guides/withdraw",
+          "guides/otc-offramp"
+        ]
+      },
+      {
+        "group": "Concepts",
+        "pages": [
+          "concepts/architecture",
+          "concepts/settlement",
+          "concepts/risk"
+        ]
+      },
+      {
+        "group": "API",
+        "pages": [
+          "api/overview",
+          "api/authentication",
+          "api/payments",
+          "api/payouts",
+          "api/addresses",
+          "api/webhooks",
+          "api/errors"
+        ]
+      },
+      {
+        "group": "SDK",
+        "pages": [
+          "sdk/javascript",
+          "sdk/http-examples"
+        ]
+      },
+      {
+        "group": "Dashboard",
+        "pages": [
+          "dashboard/merchant"
+        ]
+      },
+      {
+        "group": "Compliance & Security",
+        "pages": [
+          "compliance/kyb",
+          "security",
+          "operations"
+        ]
+      },
+      {
+        "group": "Help",
+        "pages": [
+          "faq",
+          "glossary",
+          "changelog"
+        ]
+      },
+      {
+        "group": "中文 Chinese",
+        "pages": [
+          "zh/index",
+          "zh/quickstart"
+        ]
+      }
+    ]
+  }
+}
