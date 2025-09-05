@@ -1,0 +1,39 @@
+---
+title: Accept Payments
+---
+
+Two integration styles:
+
+1. **Hosted Checkout** (fastest): create a payment and redirect customers.
+2. **API + Address** (flexible): generate a unique deposit address and confirm on-chain.
+
+### Hosted Checkout
+
+```http
+POST /v1/payments
+Authorization: Bearer <secret>
+Content-Type: application/json
+
+{
+  "amount": "25.00",
+  "currency": "USDT",
+  "network": "TRON",
+  "metadata": {"order_id": "1001"},
+  "return_url": "https://merchant.example/thank-you"
+}
+```
+
+Server returns `checkout_url` to redirect users.
+
+### API + Address
+
+```http
+POST /v1/addresses
+{
+  "currency": "USDT",
+  "network": "TRON",
+  "expires_in": 3600,
+  "purpose": "order",
+  "metadata": {"order_id": "1002"}
+}
+```

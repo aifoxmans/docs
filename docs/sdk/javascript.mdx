@@ -1,0 +1,23 @@
+---
+title: JavaScript SDK
+---
+
+Install:
+
+```bash
+npm i @epay/sdk
+```
+
+Usage:
+
+```js
+import { EPay } from "@epay/sdk";
+
+const epay = new EPay({ apiKey: process.env.EPAY_KEY });
+
+const payment = await epay.payments.create({
+  amount: "25.00",
+  currency: "USDT",
+  network: "TRON"
+});
+```

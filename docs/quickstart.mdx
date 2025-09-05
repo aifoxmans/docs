@@ -1,0 +1,43 @@
+---
+title: Quickstart
+---
+
+This 10-minute guide gets you to a test charge.
+
+### 1) Create an API key
+
+- Go to Dashboard → Developers → API Keys
+- Generate `sk_test_...` and copy it to your backend secrets
+
+### 2) Make a test payment
+
+```bash
+curl -X POST https://api.epay.example/v1/payments \  -H "Authorization: Bearer sk_test_xxx" \  -H "Content-Type: application/json" \  -d '{
+    "amount": "25.00",
+    "currency": "USDT",
+    "network": "TRON",
+    "description": "Test order #1001",
+    "return_url": "https://merchant.example/success"
+  }'
+```
+
+Response:
+
+```json
+{
+  "id": "pay_123",
+  "status": "pending",
+  "checkout_url": "https://checkout.epay.example/c/pay_123"
+}
+```
+
+Open `checkout_url` to simulate a payment in **Test Mode**.
+
+### 3) Listen to webhooks
+
+Subscribe to `payment.succeeded` to finalize your order. See [[Webhooks]](api/webhooks).
+
+### Next steps
+
+- Accept payments in your app → [[Accept Payments]](guides/accept-payments)
+- Use **Collect & Disburse** → [[集成代收代付]](guides/collect-disburse)

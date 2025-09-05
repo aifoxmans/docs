@@ -1,0 +1,28 @@
+---
+title: Payments API
+---
+
+### Create payment
+
+`POST /v1/payments`
+
+**Body**
+
+```json
+{
+  "amount": "string (decimal)",
+  "currency": "USDT|USDC",
+  "network": "TRON|ETH|BSC|...",
+  "description": "optional",
+  "metadata": {"order_id": "string"},
+  "return_url": "https://..."
+}
+```
+
+### Retrieve payment
+
+`GET /v1/payments/{id}`
+
+### List payments
+
+`GET /v1/payments?status=succeeded&limit=50`
