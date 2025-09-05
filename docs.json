@@ -1,88 +1,149 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "ePay Stablecoin Platform",
-  "logo": "/assets/logo-epay.png",
-  "favicon": "/assets/logo-epay.png",
-  "colors": {
-    "primary": "#1677ff",
-    "light": "#f5f7ff",
-    "dark": "#0b1221"
+  "name": "ePay Docs",
+  "logo": {
+    "light": "/public/assets/logo-epay.png",
+    "dark": "/public/assets/logo-epay.png"
   },
   "navigation": {
-    "groups": [
+    "languages": [
       {
-        "group": "Overview",
-        "pages": [
-          "/",
-          "quickstart",
-          "i18n",
-          "merchant-scenarios"
+        "language": "en",
+        "tabs": [
+          {
+            "tab": "Guides",
+            "groups": [
+              {
+                "group": "Getting started",
+                "pages": [
+                  "docs/en/overview",
+                  "docs/en/quickstart",
+                  "docs/en/merchant-scenarios"
+                ]
+              },
+              {
+                "group": "Integration",
+                "pages": [
+                  "docs/en/guides/accept-payments",
+                  "docs/en/guides/collect-disburse",
+                  "docs/en/guides/withdraw",
+                  "docs/en/guides/otc-offramp"
+                ]
+              },
+              {
+                "group": "Concepts",
+                "pages": [
+                  "docs/en/concepts/architecture",
+                  "docs/en/concepts/settlement",
+                  "docs/en/concepts/risk"
+                ]
+              },
+              {
+                "group": "Dashboard",
+                "pages": [
+                  "docs/en/dashboard/merchant"
+                ]
+              },
+              {
+                "group": "Compliance & Security",
+                "pages": [
+                  "docs/en/compliance/kyb",
+                  "docs/en/security",
+                  "docs/en/operations"
+                ]
+              },
+              {
+                "group": "Help",
+                "pages": [
+                  "docs/en/faq",
+                  "docs/en/glossary",
+                  "docs/en/changelog"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "API Reference",
+            "groups": [
+              {
+                "group": "API",
+                "pages": [
+                  "api/overview",
+                  "api/authentication",
+                  "api/payments",
+                  "api/payouts",
+                  "api/addresses",
+                  "api/webhooks",
+                  "api/errors"
+                ]
+              },
+              {
+                "group": "SDK",
+                "pages": [
+                  "sdk/javascript",
+                  "sdk/http-examples"
+                ]
+              }
+            ]
+          }
         ]
       },
       {
-        "group": "Guides",
-        "pages": [
-          "guides/accept-payments",
-          "guides/collect-disburse",
-          "guides/withdraw",
-          "guides/otc-offramp"
-        ]
-      },
-      {
-        "group": "Concepts",
-        "pages": [
-          "concepts/architecture",
-          "concepts/settlement",
-          "concepts/risk"
-        ]
-      },
-      {
-        "group": "API",
-        "pages": [
-          "api/overview",
-          "api/authentication",
-          "api/payments",
-          "api/payouts",
-          "api/addresses",
-          "api/webhooks",
-          "api/errors"
-        ]
-      },
-      {
-        "group": "SDK",
-        "pages": [
-          "sdk/javascript",
-          "sdk/http-examples"
-        ]
-      },
-      {
-        "group": "Dashboard",
-        "pages": [
-          "dashboard/merchant"
-        ]
-      },
-      {
-        "group": "Compliance & Security",
-        "pages": [
-          "compliance/kyb",
-          "security",
-          "operations"
-        ]
-      },
-      {
-        "group": "Help",
-        "pages": [
-          "faq",
-          "glossary",
-          "changelog"
-        ]
-      },
-      {
-        "group": "中文 Chinese",
-        "pages": [
-          "zh/index",
-          "zh/quickstart"
+        "language": "cn",
+        "tabs": [
+          {
+            "tab": "指南",
+            "groups": [
+              {
+                "group": "快速开始",
+                "pages": [
+                  "docs/cn/overview",
+                  "docs/cn/quickstart",
+                  "docs/cn/merchant-scenarios"
+                ]
+              },
+              {
+                "group": "集成方式",
+                "pages": [
+                  "docs/cn/guides/accept-payments",
+                  "docs/cn/guides/collect-disburse",
+                  "docs/cn/guides/withdraw",
+                  "docs/cn/guides/otc-offramp"
+                ]
+              },
+              {
+                "group": "概念",
+                "pages": [
+                  "docs/cn/concepts/architecture",
+                  "docs/cn/concepts/settlement",
+                  "docs/cn/concepts/risk"
+                ]
+              },
+              {
+                "group": "商户后台",
+                "pages": [
+                  "docs/cn/dashboard/merchant"
+                ]
+              },
+              {
+                "group": "合规与安全",
+                "pages": [
+                  "docs/cn/compliance/kyb",
+                  "docs/cn/security",
+                  "docs/cn/operations"
+                ]
+              },
+              {
+                "group": "帮助",
+                "pages": [
+                  "docs/cn/faq",
+                  "docs/cn/glossary",
+                  "docs/cn/changelog"
+                ]
+              }
+            ]
+          }
         ]
       }
     ]
