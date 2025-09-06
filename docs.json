@@ -51,14 +51,6 @@
                 ]
               },
               {
-                "group": "Concepts",
-                "pages": [
-                  "docs/en/concepts/architecture",
-                  "docs/en/concepts/settlement",
-                  "docs/en/concepts/risk"
-                ]
-              },
-              {
                 "group": "Dashboard",
                 "pages": [
                   "docs/en/dashboard/merchant"
@@ -138,14 +130,6 @@
                   "docs/cn/guides/collect-disburse",
                   "docs/cn/guides/withdraw",
                   "docs/cn/guides/otc-offramp"
-                ]
-              },
-              {
-                "group": "概念",
-                "pages": [
-                  "docs/cn/concepts/architecture",
-                  "docs/cn/concepts/settlement",
-                  "docs/cn/concepts/risk"
                 ]
               },
               {
