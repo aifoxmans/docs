@@ -28,8 +28,17 @@
                 "group": "Getting started",
                 "pages": [
                   "docs/en/overview",
-                  "docs/en/quickstart",
-                  "docs/en/merchant-scenarios"
+                  "docs/en/quickstart"
+                ]
+              },
+              {
+                "group": "Merchant Scenarios",
+                "pages": [
+                  "docs/en/merchant-scenarios/index",
+                  "docs/en/merchant-scenarios/vcc",
+                  "docs/en/merchant-scenarios/gaming",
+                  "docs/en/merchant-scenarios/independent",
+                  "docs/en/merchant-scenarios/non-platform"
                 ]
               },
               {
@@ -109,8 +118,17 @@
                 "group": "快速开始",
                 "pages": [
                   "docs/cn/overview",
-                  "docs/cn/quickstart",
-                  "docs/cn/merchant-scenarios"
+                  "docs/cn/quickstart"
+                ]
+              },
+              {
+                "group": "商户场景",
+                "pages": [
+                  "docs/cn/merchant-scenarios/index",
+                  "docs/cn/merchant-scenarios/vcc",
+                  "docs/cn/merchant-scenarios/gaming",
+                  "docs/cn/merchant-scenarios/independent",
+                  "docs/cn/merchant-scenarios/non-platform"
                 ]
               },
               {
