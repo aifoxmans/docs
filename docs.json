@@ -32,7 +32,7 @@
                 ]
               },
               {
-                "group": "Merchant Scenarios",
+                "group": "Business Scenarios",
                 "pages": [
                   "docs/en/merchant-scenarios/index",
                   "docs/en/merchant-scenarios/vcc",
@@ -122,7 +122,7 @@
                 ]
               },
               {
-                "group": "商户场景",
+                "group": "业务场景",
                 "pages": [
                   "docs/cn/merchant-scenarios/index",
                   "docs/cn/merchant-scenarios/vcc",
