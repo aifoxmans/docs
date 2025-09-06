@@ -45,7 +45,6 @@
                 "group": "Integration",
                 "pages": [
                   "docs/en/guides/accept-payments",
-                  "docs/en/guides/collect-disburse",
                   "docs/en/guides/withdraw",
                   "docs/en/guides/otc-offramp"
                 ]
@@ -127,7 +126,6 @@
                 "group": "业务流程",
                 "pages": [
                   "docs/cn/guides/accept-payments",
-                  "docs/cn/guides/collect-disburse",
                   "docs/cn/guides/withdraw",
                   "docs/cn/guides/otc-offramp"
                 ]
