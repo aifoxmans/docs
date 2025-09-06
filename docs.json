@@ -124,7 +124,7 @@
                 ]
               },
               {
-                "group": "集成方式",
+                "group": "业务流程",
                 "pages": [
                   "docs/cn/guides/accept-payments",
                   "docs/cn/guides/collect-disburse",
