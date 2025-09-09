@@ -96,6 +96,10 @@
                 ]
               }
             ]
+          },
+          {
+            "tab": "API Reference V3",
+            "openapi": "docs/api/openapi.json"
           }
         ]
       },
