@@ -81,6 +81,7 @@
                 "pages": [
                   "docs/api/cn/sign",
                   "docs/api/cn/errors",
+                  "docs/api/cn/enums",
                   "docs/api/cn/webhook"
                 ]
               },
@@ -165,6 +166,7 @@
                 "pages": [
                   "docs/api/cn/sign",
                   "docs/api/cn/errors",
+                  "docs/api/cn/enums",
                   "docs/api/cn/webhook"
                 ]
               },
