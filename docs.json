@@ -159,21 +159,16 @@
             "groups": [
               {
                 "group": "API",
-                "pages": [
-                  "api/overview",
-                  "api/authentication",
-                  "api/payments",
-                  "api/payouts",
-                  "api/addresses",
-                  "api/webhooks",
-                  "api/errors"
-                ]
+                "openapi": {
+                  "source": "docs/api/openapi.json",
+                  "directory": "docs/api"
+                }
               },
               {
                 "group": "SDK",
                 "pages": [
-                  "sdk/javascript",
-                  "sdk/http-examples"
+                  "docs/sdk/javascript",
+                  "docs/sdk/http-examples"
                 ]
               }
             ]
