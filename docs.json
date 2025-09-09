@@ -184,5 +184,25 @@
         ]
       }
     ]
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "mailto:service@epay123.net"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Dashboard",
+      "href": "https://portal.epay123.net"
+    }
+  },
+  "footer": {
+    "socials": {
+      "x": "https://x.com/epay123",
+      "github": "https://github.com/epay123",
+      "linkedin": "https://linkedin.com/epay123"
+    }
   }
 }
