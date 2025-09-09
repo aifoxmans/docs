@@ -77,16 +77,19 @@
             "tab": "API Reference",
             "groups": [
               {
-                "group": "API",
+                "group": "Overview",
                 "pages": [
-                  "docs/api/overview",
-                  "docs/api/authentication",
-                  "docs/api/payments",
-                  "docs/api/payouts",
-                  "docs/api/addresses",
-                  "docs/api/webhooks",
-                  "docs/api/errors"
+                  "docs/api/cn/sign",
+                  "docs/api/cn/errors",
+                  "docs/api/cn/webhook"
                 ]
+              },
+              {
+                "group": "API",
+                "openapi": {
+                  "source": "docs/api/cn/openapi.json",
+                  "directory": "docs/api"
+                }
               },
               {
                 "group": "SDK",
@@ -96,10 +99,6 @@
                 ]
               }
             ]
-          },
-          {
-            "tab": "API Reference V3",
-            "openapi": "docs/api/openapi.json"
           }
         ]
       },
@@ -162,9 +161,17 @@
             "tab": "API 接口文档",
             "groups": [
               {
+                "group": "概览",
+                "pages": [
+                  "docs/api/cn/sign",
+                  "docs/api/cn/errors",
+                  "docs/api/cn/webhook"
+                ]
+              },
+              {
                 "group": "API",
                 "openapi": {
-                  "source": "docs/api/openapi.json",
+                  "source": "docs/api/cn/openapi.json",
                   "directory": "docs/api"
                 }
               },
@@ -176,10 +183,6 @@
                 ]
               }
             ]
-          },
-          {
-            "tab": "API 接口文档V3",
-            "openapi": "docs/api/openapi.json"
           }
         ]
       }
