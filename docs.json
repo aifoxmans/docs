@@ -161,7 +161,7 @@
                 "group": "API",
                 "openapi": {
                   "source": "docs/api/openapi.json",
-                  "directory": "docs/api"
+                  "directory": "api-reference"
                 }
               },
               {
