@@ -172,6 +172,10 @@
                 ]
               }
             ]
+          },
+          {
+            "tab": "API 接口文档V3",
+            "openapi": "docs/api/openapi.json"
           }
         ]
       }
