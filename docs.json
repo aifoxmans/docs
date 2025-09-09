@@ -79,20 +79,20 @@
               {
                 "group": "API",
                 "pages": [
-                  "api/overview",
-                  "api/authentication",
-                  "api/payments",
-                  "api/payouts",
-                  "api/addresses",
-                  "api/webhooks",
-                  "api/errors"
+                  "docs/api/overview",
+                  "docs/api/authentication",
+                  "docs/api/payments",
+                  "docs/api/payouts",
+                  "docs/api/addresses",
+                  "docs/api/webhooks",
+                  "docs/api/errors"
                 ]
               },
               {
                 "group": "SDK",
                 "pages": [
-                  "sdk/javascript",
-                  "sdk/http-examples"
+                  "docs/sdk/javascript",
+                  "docs/sdk/http-examples"
                 ]
               }
             ]
