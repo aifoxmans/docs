@@ -95,8 +95,7 @@
               {
                 "group": "SDK",
                 "pages": [
-                  "docs/sdk/javascript",
-                  "docs/sdk/http-examples"
+                  "docs/sdk/java"
                 ]
               }
             ]
@@ -180,8 +179,7 @@
               {
                 "group": "SDK",
                 "pages": [
-                  "docs/sdk/javascript",
-                  "docs/sdk/http-examples"
+                  "docs/sdk/java"
                 ]
               }
             ]
