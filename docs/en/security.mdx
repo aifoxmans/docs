@@ -1,5 +1,73 @@
 ---
-title: Security
+title: "Security"
 ---
 
-API key scopes, IP allowlists, 2FA, proof of reserves.
+import Callout from '@/components/Callout';
+
+During product configuration, please be sure to follow these security recommendations to maximize the protection of your team's digital assets and operational security. A comprehensive security configuration is the first line of defense for asset protection.
+
+If you would like a professional security team to conduct a full review of your configuration, please contact our customer support for assistance.
+
+## Risk Control Overview
+
+EPay Portal provides a multi-layered, fine-grained risk control mechanism designed to address various security challenges faced in the storage, management, and transfer of digital assets, helping teams build a robust risk control system.
+
+## User Roles and Permissions Management
+
+User roles consist of a series of predefined permission rules that can be used to assign operational permissions to team members with precision.
+
+- It is recommended to configure **at least 2 administrators** for the team to achieve cross-validation of operations and to serve as backups for each other.
+- Other roles (such as Operator, Viewer, etc.) should be assigned properly according to actual business needs, following the principle of least privilege.
+- Try to avoid assigning multiple roles to the same member to reduce the risk of excessive permission concentration.
+
+## Transaction Risk Control Strategy
+
+You can flexibly set up off-chain and on-chain transaction risk control rules and manage each transaction automatically through an approval process.
+
+- **On-chain Transaction Risk Control**: Managed by blockchain smart contracts and related to various business processes.
+- **Off-chain Transaction Risk Control**: Managed by the EPay Portal backend system, providing crucial security for merchant funds.
+
+Transaction risk control is the core security barrier for your team. Please configure it strictly, especially for large-amount withdrawal scenarios. Pay special attention to the following high-risk situations:
+
+- No risk control rules are set.
+- There are transaction blind spots not covered by risk control.
+- All transactions are set to be automatically approved.
+- The same role has both withdrawal and approval permissions.
+
+<Info>
+  Please focus on the settlement strategy in off-chain transaction risk control to avoid the high-risk configurations mentioned above.
+</Info>
+
+## Business Operation Risk Control
+
+Business risk control determines the approval processes and rules required for key operations. The following are high-risk operations in EPay Portal, and it is strongly recommended to set them to require **approval from at least 2 administrators**:
+
+- Inviting new members
+- Changing a member's user role
+- Editing business risk control rules themselves
+- Managing transaction risk control strategies
+- Managing addresses in the address book
+- Managing API Keys
+- Editing custom user roles
+- Managing wallets and gas stations
+
+## Administrator Identity Authentication
+
+To significantly enhance account security and reduce the risk of account theft, **it is strongly recommended that all administrator accounts enable two-factor authentication (2FA) or stronger authentication methods**.
+
+Recommended combinations are as follows:
+
+- Funding Password + Google Authenticator (GA)
+- Funding Password + Secure Email Verification
+- Google Authenticator (GA) + Secure Email Verification
+
+## API Key Security Settings
+
+Administrators and Operators can register API Keys in the developer console and assign them specific roles, permissions, and IP access policies.
+
+- **When using a long-term API Key**, be sure to set a strict `IP whitelist` and configure a `Callback URL`.
+- Properly configure `wallet scope` permissions, following the principle of minimization. **`Try to avoid granting permissions to any type of wallet`**.
+
+<Info>
+  For detailed operating instructions, please refer to [Register API Key](/docs/api/api-key).
+</Info>

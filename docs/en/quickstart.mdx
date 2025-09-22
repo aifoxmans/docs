@@ -1,7 +1,23 @@
 ---
-title: Quickstart
+title: "Quickstart"
 ---
 
-1. Create an API key in Dashboard  
-2. Make a test payment with `POST /v1/payments`  
-3. Listen to `payment.succeeded` webhook
+#### **1. Submit Information and Account Approval**
+
+Please prepare and submit the required merchant qualification documents. The platform will complete the review as soon as possible after receiving the materials and open an account for approved merchants.
+
+#### **2. Create Application and Obtain Credentials**
+
+After your account is successfully opened, please log in to the merchant backend to create an application. The system will generate a unique API Key and Secret Key for you. These credentials are vital identifiers for calling platform APIs, so please store them securely.
+
+#### **3. System Integration and Workflow Configuration**
+
+Technical personnel can integrate your business system with the platform's payment, settlement, and other functions based on the provided API interfaces, Webhook notifications, and Callback mechanisms. If you do not have a business system, you can skip this step and use the merchant backend directly for relevant operations.
+
+#### **4. Initiate Payment and User Payment**
+
+You can create a payment order by calling the API or directly in the merchant backend to generate a corresponding checkout link or page. End-users can complete the payment through this link.
+
+#### **5. Fund Arrival and Withdrawal Processing**
+
+Once the funds arrive, you can withdraw the currency balance in your account at any time through the settlement function. You can also cash out into fiat or other digital currencies through the platform's embedded OTC service.
