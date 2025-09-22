@@ -8,8 +8,8 @@
     "dark": "/public/assets/favicon.ico"
   },
   "logo": {
-    "light": "/public/assets/logo-epay.png",
-    "dark": "/public/assets/logo-epay.png"
+    "light": "/public/assets/logo.png",
+    "dark": "/public/assets/logo.png"
   },
   "colors": {
     "primary": "#1677ff",
