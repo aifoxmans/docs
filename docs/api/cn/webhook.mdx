@@ -141,15 +141,15 @@ title: "回调通知"
 
 > 通知参数
 
-| **字段名** | **变量名**    | **类型**  | **示例值**    | **描述**                                    |
-| :------ | :--------- | :------ | :--------- | :---------------------------------------- |
-| 通知类型    | notifyType | int     | 5          | 通知类型:1支付,4结算,5订单交易                        |
-| 订单交易ID  | txId       | String  | 1234-5678  | 订单交易ID                                    |
-| 支付订单号   | payOrderId | String  | P202508... | 支付订单号                                     |
-| 金额      | amount     | decimal | 1000.24    | 支付金额,含小数点                                 |
-| 币种      | tokenId    | String  | ETH_USDT   | 币种ID                                      |
-| 交易状态    | status     | String  | Confirming | 状态：Confirming-确认中, PendingScreening-合规扫描中 |
-| 签名      | sign       | String  | C38...     | 签名值                                       |
+| **字段名** | **变量名**    | **类型**  | **示例值**    | **描述**                                                              |
+| :------ | :--------- | :------ | :--------- | :------------------------------------------------------------------ |
+| 通知类型    | notifyType | int     | 5          | 通知类型:1支付,4结算,5订单交易                                                  |
+| 订单交易ID  | txId       | String  | 1234-5678  | 订单交易ID                                                              |
+| 支付订单号   | payOrderId | String  | P202508... | 支付订单号                                                               |
+| 金额      | amount     | decimal | 1000.24    | 支付金额,含小数点                                                           |
+| 币种      | tokenId    | String  | ETH_USDT   | 币种ID                                                                |
+| 交易状态    | status     | String  | Completed  | 状态：Confirming-确认中, PendingScreening-合规扫描中,Completed-成功（以该状态为成功入账标准） |
+| 签名      | sign       | String  | C38...     | 签名值                                                                 |
 
 > 返回结果
 
@@ -166,7 +166,7 @@ title: "回调通知"
     "payOrderId": "P1234567890",
     "amount": "1000.85",
     "tokenId": "TRON_USDT",
-    "status": "Confirming",
+    "status": "Completed",
     "sign": "C38..."
 }
 ```
