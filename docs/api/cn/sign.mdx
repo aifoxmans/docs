@@ -22,7 +22,7 @@ title: "接口规则"
 **_第一步：_** 设所有发送或者接收到的数据为集合M，将集合M内非空参数值的参数按照参数名ASCII码从小到大排序（字典序），使用URL键值对的格式（即key1=value1&key2=value2…）拼接成字符串stringA。
 特别注意以下重要规则：\
 ◆ 参数名ASCII码从小到大排序（字典序）；\
-◆ 如果参数的值为空不参与签名；\
+◆ 如果参数的值为空or空串都不参与签名；\
 ◆ 参数名区分大小写；\
 ◆ 验证调用返回或支付中心主动通知签名时，传送的sign参数不参与签名，将生成的签名与该sign值作校验。\
 ◆ 支付中心接口可能增加字段，验证签名时必须支持增加的扩展字段
@@ -43,7 +43,7 @@ signMap.put("reqTime", "20190723141000");
 signMap.put("version", "1.0.1");
 ```
 
-`待签名值`： 
+`待签名值`：
 
 ```bash
 amount=10000&clientIp=192.168.0.111&mchOrderNo=P0123456789101&notifyUrl=https://www.baidu.com&amp;platId=1000&amp;reqTime=20190723141000&amp;returnUrl=https://www.baidu.com&amp;version=1.0&amp;key=EWEFD123RGSRETYDFNGFGFGSHDFGH
